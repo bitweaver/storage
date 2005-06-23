@@ -1,0 +1,9 @@
+This directory is used to alternatively store information to the file system
+
+The storage directory needs to be writable by the webserver (apache) user.
+
+A command the will probably work is:
+
+chmod 777 -R storage/
+
+It's not the safest. Adjust to your level of security paranoia.
