@@ -1,3 +1,10 @@
+# Prevent execution of user uploaded code
+RemoveHandler .php
+RemoveHandler .cgi
+RemoveHandler .pl
+RemoveHandler .py
+RemoveHandler .jsp
+
 <FilesMatch "\.ph(p(3|4)?|tml)$">
     order deny,allow
     deny from all
