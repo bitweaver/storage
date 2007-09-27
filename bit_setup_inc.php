@@ -8,9 +8,4 @@ $registerHash = array(
 );
 $gBitSystem->registerPackage( $registerHash );
 
-// set in kernel/config_inc.php
-if( !defined( 'STORAGE_HOST_URI' ) ) {
-	define( 'STORAGE_HOST_URI', BIT_ROOT_URI );
-}
-
 ?>
