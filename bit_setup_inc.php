@@ -1,5 +1,5 @@
 <?php
-global $gBitSystem, $gBitUser ;
+global $gBitSystem;
 
 $registerHash = array(
 	'package_name' => 'storage',
@@ -7,5 +7,4 @@ $registerHash = array(
 	'required_package'=> TRUE,
 );
 $gBitSystem->registerPackage( $registerHash );
-
 ?>
